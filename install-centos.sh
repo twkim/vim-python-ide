@@ -12,3 +12,11 @@ yum install ripgrep
 pip3 install --user ropevim
 
 ./install.sh
+
+### custom configuration for vim
+
+# DirDiff 설치
+# Plug 'will133/vim-dirdiff'
+
+# 80-column 마커 제거
+# comment "set cc=80"
