@@ -14,9 +14,14 @@ pip3 install --user ropevim
 ./install.sh
 
 ### custom configuration for vim
-
 # DirDiff 설치
 # Plug 'will133/vim-dirdiff'
 
 # 80-column 마커 제거
 # comment "set cc=80"
+
+set incsearch
+set sts=4
+set expandtab
+nmap <F4> :Rg <C-R>=expand("<cword>")<CR><CR>
+nmap <F7> :NERDTreeFind<CR>
